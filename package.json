@@ -8,7 +8,7 @@
   },
   "main": "./lib",
   "scripts": {
-    "test": "node_modules/.bin/mocha tests/*.js"
+    "test": "grunt test"
   },
   "author": "Pavel Rybin <me@drfisher.ru>",
   "license": "MIT",
@@ -18,7 +18,11 @@
   "peerDependencies": {
     "grunt": "^0.4.5"
   },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0"
+  },
   "keywords": [
+    "gruntplugin",
     "grunt",
     "task",
     "_locale",
