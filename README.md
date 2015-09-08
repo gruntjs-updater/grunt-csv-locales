@@ -1,6 +1,6 @@
 # grunt-csv-locales
 
-This is a grunt task for the [csv-locales module](https://www.npmjs.com/package/csv-locales) which creates json files with n18i locales for Google Chrome extensions and applications from a CSV file.
+This is a grunt task for the [csv-locales module](https://www.npmjs.com/package/csv-locales) which creates json files with [i18n locales](https://developer.chrome.com/extensions/i18n) for Google Chrome extensions and applications from a CSV file.
 
 
 ## Installation
